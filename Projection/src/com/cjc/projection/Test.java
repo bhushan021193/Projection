@@ -30,7 +30,11 @@ public class Test {
 
 		//String sql2 = "ALTER TABLE employee DROP ADDR1";// to drop single column
 		//String sql2="SELECT name ,salary,id FROM employee WHERE name in ('prasad','chetan') group by salary";
-		//joins team3
+
+		//joins kk
+
+		
+
 		String sql2="SELECT COUNT(id) FROM employee ";
 		Statement smt = con.createStatement();
 		ResultSet rs=smt.executeQuery(sql2);
